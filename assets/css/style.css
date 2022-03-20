@@ -71,6 +71,7 @@ ul {
 .left-column-title {
   padding: 15px;
   text-align: right;
+  color: var(--primary-color);
 }
 
 
@@ -86,60 +87,22 @@ ul {
 }
 
 
-
-/* Project */
-
-.box {
-  width: 450px;
-  height: 300px;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
-  margin: 5px;
-}
-
-.small-project {
+.flex-row {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 450px;
+  padding: 10px;
 }
-.bottom-left {
-  position: relative;
-  top: 5px;
-  right: 10px;
-  background-color: #3B5998;
+.box1 {
+background-image: url(../images/runbuddy.png);
+  flex: 1 1 200px;
 }
 
-#runbuddybox {
-  background-image: url(../images/runbuddy.png);
-  background-size: cover;
-  background-position: center;
-  }
-
-#spotifybox {
-  background-image: url(../images/spotify.png);
-  background-size: contain;
-  background-position: center;
-  }
-
-  #soundcloudbox {
-    background-image: url(../images/soundcloud.png);
-    background-size: cover;
-    background-position: center;
-    }
-
-  #robotfightbox {
-    background-image: url(../images/robot.jpeg);
-    background-size: cover;
-    background-position: center;
-    }
-
-    #calculator {
-      background-image: url(../images/calculator-1470.jpeg);
-      background-size: cover;
-      background-position: center;
-      }
-
-
-img {
-  width: 100%;
+.box2 {
+  background-image: url(../images/robot.jpeg);
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 
