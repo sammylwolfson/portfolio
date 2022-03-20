@@ -98,7 +98,6 @@ ul {
 }
 
 .small-project {
-  flex-wrap: wrap;
   display: flex;
 }
 .bottom-left {
