@@ -1,7 +1,5 @@
 :root {
   --font-family: "Arial", sans-serf;
-  --normal-font: 400;
-  --bold-font: 700;
   --bg-color: #e2e2e2;
   --primary-color: #3B5998;
   --secondary-color: #ffffff;
@@ -120,13 +118,13 @@ ul {
 .small-project {
   padding: 5%;
   border-radius: 6px;
-  width: 30%;
   cursor: pointer;
+  flex-wrap: wrap;
 }
 .bottom-left {
-  position: absolute;
-  top: 1px;
-  right: 1px;
+  position: relative;
+  top: -85px;
+  right: -10px;
 }
 
 
