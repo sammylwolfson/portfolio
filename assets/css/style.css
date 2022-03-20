@@ -77,33 +77,16 @@ ul {
 
 
 /* About */
-.about-title {
-  margin-bottom: var(--bottom-margin);
-  width: 25rem;
-  padding: 0.625rem;
-  text-align: ce;
-  width: 100%;
-}
 
 .bio {
   padding: 0.625rem;
   border-radius: 6px;
   width: 100%;
-}
-
-.bio-p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
 }
 
-/* Box */
 
-.box {
-  flex-grow: 4;
-  flex-shrink: 1;
-  flex-basis: calc(50% - 50px);
-  color: var(--primary-color);
-}
 
 /* Project */
 
@@ -114,12 +97,17 @@ ul {
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
   width: 75%;
 }
+.box {
+  width: 450px;
+  height: 450px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 5px;
+}
 
 .small-project {
-  padding: 5%;
-  border-radius: 6px;
-  cursor: pointer;
   flex-wrap: wrap;
+  display: flex;
 }
 .bottom-left {
   position: relative;
