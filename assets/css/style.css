@@ -69,7 +69,6 @@ ul {
 }
 
 .left-column-title {
-  margin-bottom: var(--bottom-margin);
   padding: 15px;
   text-align: right;
 }
@@ -90,16 +89,9 @@ ul {
 
 /* Project */
 
-.main-project {
-  width: 25rem;
-  padding: 0.625rem;
-  border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
-  width: 75%;
-}
 .box {
   width: 450px;
-  height: 450px;
+  height: 300px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   margin: 5px;
@@ -111,16 +103,49 @@ ul {
 }
 .bottom-left {
   position: relative;
-  top: -85px;
-  right: -10px;
+  top: 5px;
+  right: 10px;
+  background-color: #3B5998;
+}
+
+#runbuddybox {
+  background-image: url(../images/runbuddy.png);
+  background-size: cover;
+  background-position: center;
+  }
+
+#spotifybox {
+  background-image: url(../images/spotify.png);
+  background-size: contain;
+  background-position: center;
+  }
+
+  #soundcloudbox {
+    background-image: url(../images/soundcloud.png);
+    background-size: cover;
+    background-position: center;
+    }
+
+  #robotfightbox {
+    background-image: url(../images/robot.jpeg);
+    background-size: cover;
+    background-position: center;
+    }
+
+    #calculator {
+      background-image: url(../images/calculator-1470.jpeg);
+      background-size: cover;
+      background-position: center;
+      }
+
+
+img {
+  width: 100%;
 }
 
 
 
 /* Contact */
-.contact {
-  margin-top: var(--bottom-margin-2)
-}
 
 .contact h2 {
   text-align: center;
